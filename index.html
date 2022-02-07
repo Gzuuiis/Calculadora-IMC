@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Olá, mundo!</title>
+  </head>
+  <body>
+   
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Calculadora IMC</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>A classificação do índice de massa corporal (IMC), pode ajudar a identificar obesidade ou desnutrição em crianças, adolescentes, adultos e idosos.</p>
+
+                <p>Além de saber qual é o seu IMC, essa calculadora também indica qual deve ser o seu peso ideal para alcançar a sua melhor forma, e assim melhorar sua qualidade de vida, garantindo o seu bem estar.</p>
+
+                <h5>Coloque os seus dados na calculadora a seguir e saiba qual é o seu IMC:</h5>
+
+                <div class="area">
+                  <div class="col-md-12">
+                        <div class="form-group">
+                            <label><strong>Peso*</strong></label> <br>
+                            <input type="number" class="form-control" id="peso">
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label><strong>Altura*</strong></label> <br>
+                            <input type="number" class="form-control" id="altura">
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <button onclick="calc()"> Confirmar </button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="tablearea">
+                    <div class="row hdtable">
+                        <div class="col-md-4"> IMC </div>
+                        <div class="col-md-4"> Classificação </div>
+                        <div class="col-md-4"> Obesidade </div>
+                    </div>
+                    <hr>
+                    <div class="row" id="magreza">
+                        <div class="col-md-4"> MENOR QUE 18,5 </div>
+                        <div class="col-md-4"> MAGREZA </div>
+                        <div class="col-md-4"> 0 </div>
+                    </div>
+                    <hr>
+                    <div class="row" id="normal">
+                        <div class="col-md-4"> ENTRE 18,5 E 24,9 </div>
+                        <div class="col-md-4"> NORMAL </div>
+                        <div class="col-md-4"> 0 </div>
+                    </div>
+                    <hr>
+                    <div class="row" id="sobrepeso">
+                        <div class="col-md-4"> ENTRE 25,0 E 29,9 </div>
+                        <div class="col-md-4"> SOBREPESO </div>
+                        <div class="col-md-4"> I </div>
+                    </div>
+                    <hr>
+                    <div class="row" id="obesidade">
+                        <div class="col-md-4"> ENTRE 30,0 E 34,9 </div>
+                        <div class="col-md-4"> OBESIDADE </div>
+                        <div class="col-md-4"> I </div>
+                    </div>
+                    <hr>
+                    <div class="row" id="obesidade2">
+                        <div class="col-md-4"> ENTRE 35,0 E 39,9 </div>
+                        <div class="col-md-4"> OBESIDADE </div>
+                        <div class="col-md-4"> II </div>
+                    </div>
+                    <hr>
+                    <div class="row" id="obesidade3">
+                        <div class="col-md-4"> MAIOR QUE 40,0 </div>
+                        <div class="col-md-4"> OBESIDADE GRAVE </div>
+                        <div class="col-md-4"> III </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

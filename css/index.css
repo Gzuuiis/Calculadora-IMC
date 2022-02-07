@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+body{
+    min-height: 100vh;
+    background: rgb(27,104,148);
+    background: linear-gradient(0deg, rgba(27,104,148,1) 23%, rgba(255,255,255,1) 81%);
+}
+.container{
+    min-height: 100vh;
+    background-color: white;
+}
+.area{
+    margin: auto;
+    text-align: center;
+    width: 65%;
+    height: 310px;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px rgb(21, 182, 232);
+}
+.area input{
+    margin: auto;
+    width: 60%;
+}
+.area button{
+    margin: 5px 20%;
+    width: 60%;
+    background-color: teal;
+    border-radius: 15px;
+    border-color: black;
+    cursor: pointer;
+}
+
+.form-group{
+   margin-top: 25px;
+}
+
+.tablearea{
+    border: 2px solid teal;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
