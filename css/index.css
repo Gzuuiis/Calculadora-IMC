@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 body{
     min-height: 100vh;
-    background: rgb(27,104,148);
-    background: linear-gradient(0deg, rgba(27,104,148,1) 23%, rgba(255,255,255,1) 81%);
+    background: white;
 }
 .container{
     min-height: 100vh;
